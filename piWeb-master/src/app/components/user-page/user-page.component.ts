@@ -63,7 +63,6 @@ export class UserPageComponent {
     this.userReservas = [];
     const id = Number(this.idUser)
     for (let i = 0; this.allReservas.length > i; i++) {
-      debugger
       if (this.allReservas[i].idUser === id) {
         this.userReservas.push(this.allReservas[i]);
         for (let j = 0; this.allHotel.length > j; j++) {
